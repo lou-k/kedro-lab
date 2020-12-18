@@ -8,4 +8,3 @@ echo 'Starting kedro-viz on http://localhost:4141'
 screen -dmS kedro-viz kedro viz --host 0.0.0.0 --no-browser
 
 exec /bin/bash
-ENTRYPOINT ["docker-entrypoint.sh"]
