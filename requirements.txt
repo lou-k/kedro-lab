@@ -1,8 +1,18 @@
-jupyter==1.0.0
+black==v19.10b0
+flake8>=3.7.9, <4.0
+ipython==7.10
+isort>=4.3.21, <5.0
+jupyter_client>=5.1, < 7.0
+jupyter~=1.0
 jupyterlab-launcher==0.13.1
 jupyterlab==2.2.9
 kedro-viz==3.8.0
 kedro==0.17.0
 matplotlib==3.3.3
+nbstripout==0.3.3
+pytest-cov~=2.5
+pytest-mock>=1.7.1, <2.0
+pytest~=6.1.2
 scikit-learn==0.23.2
 tqdm==4.54.1
+wheel==0.32.2
