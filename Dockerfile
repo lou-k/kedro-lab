@@ -4,7 +4,7 @@ ENV LANG C.UTF-8
 # Install the tools we want from apt
 RUN export DEBIAN_FRONTEND=noninteractive && \
     apt-get update  && \
-    apt-get install -y python3.7 python3.7-dev python3-distutils-extra wget screen git psmisc rsync htop libfreeimage3 build-essential && \
+    apt-get install -y python3.7 python3.7-dev python3-distutils-extra wget screen git psmisc rsync htop libfreeimage3 && \
     ln -s /usr/bin/python3.7 /usr/local/bin/python && \
     # Cleanup
     ldconfig && \
